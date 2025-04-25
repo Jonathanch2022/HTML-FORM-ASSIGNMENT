@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HTML Contact Form Assignment</title>
+
+    <style>
+
+       .inputField{
+
+        width:100%;
+
+       }
+        .vSpacer1{
+
+            height:5px;
+        }
+        .vSpacer2{
+
+            height:2px;
+        }
+        .hSpacer1{
+
+            width:5px;
+        }
+        .rdStyle{
+
+            
+            padding-right: 10px;
+        
+        }
+        table{
+
+          width:100%;
+          border: 1px solid;
+        }
+        th{
+            border: 1px solid;
+            background-color:black;
+            color:white;
+        }
+        td{
+
+            border: 1px solid;
+            text-align: center;
+        }
+
+       
+     
+
+    </style>
+</head>
+<body>
+   
+
+   
+
+     <form id="contact-form" action="#" enctype="multipart/form-data" method="post">
+
+        <fieldset>
+
+            <legend>Contact Form</legend>
+
+            <label for="name">Name </label>
+            <input id = "name" class="inputField" type="text">
+            <!-- div class type vSpacer1 and vSpacer2 creates an empty div container of a fixed height that is used to create space between elements"-->
+            <div class="vSpacer1"></div>
+            <label for="email">Email </label>
+            <input id = "email"class="inputField" type="email">
+           
+            <div class="vSpacer1"></div>
+            <label>Message</label>
+      
+            <div class="vSpacer2"></div>
+            <textarea id="message" class="inputField"></textarea>
+
+            <div class="vSpacer1"></div>
+          <button type="submit" class="inputField">Submit</button>
+           
+            
+
+
+        </fieldset>
+
+        <fieldset>
+
+         <legend> How did you find us?</legend>
+
+         <label class="rdStyle">Google
+         <input  name="rdOpt" type="radio" >
+         </label>
+        
+         <label class="rdStyle">Social Media
+         <input  name="rdOpt" type="radio" >
+         </label>
+
+         <label class="rdStyle">Instagram
+        <input name="rdOpt" type="radio" >
+        </label>
+
+        <label class="rdStyle">Yahoo
+        <input name="rdOpt" type="radio" >
+        </label>
+       
+
+        </fieldset>
+
+        <section>
+
+            <div class="vSpacer1"></div>
+      
+              <table>
+                  <tr>
+                  <th>Product Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  </tr>
+                  <tr><tr>
+                      <td>Prd1</td>
+                      <td>$10.00</td>
+                      <td>5</td>
+                  </tr>
+                      <td>Prd2</td>
+                      <td>$15.00</td>
+                      <td>10</td>
+                  </tr>
+                  <tr>
+                      <td>Prd3</td>
+                      <td>$20.00</td>
+                      <td>15</td>
+                  </tr>
+      
+      
+              </table>
+      
+         </section>
+
+          <figure id="mediaSection">
+     
+            <img src="https://placehold.co/300x200" alt="Image place holder">
+            <img src="https://placehold.co/300x200" style="border-radius:10px" alt="Image Place holder with rouded corners">
+   
+         </figure>
+      
+
+          <div class="vSpacer1"></div>
+       
+
+          <nav id="navigation">
+   
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+       
+           </nav>
+
+     </form>
+
+   
+
+    
+
+   
+</body>
+</html>
